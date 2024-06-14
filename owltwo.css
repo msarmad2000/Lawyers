@@ -1,0 +1,62 @@
+.owl-two {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.owl-two .item {
+	font-size: 30px;
+	text-align: center;
+	padding: 40px 20px;
+	line-height: 2;
+	font-weight: 700;
+
+}
+
+.owl-two .owl-nav button.owl-prev,
+.owl-two .owl-nav button.owl-next {
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	background-color: #ccc;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translatey(-50%);
+}
+
+.owl-nav button span {
+	font-size: 25px;
+	height: 100%;
+	display: block;
+	width: 100%;
+    background:white;
+}
+.owl-nav button span:hover{
+	background-color: none;
+	color: red;
+}
+.owl-two .owl-nav button.owl-prev {
+	left: 0;
+}
+.owl-two .owl-nav button.owl-next {
+	right: 0;
+}
+.owl-two .owl-nav {
+	margin: 0;
+}
+
+.owl-theme .owl-nav .disabled,
+button.disabled {
+	opacity: 0.6;
+}
+.owl-two .owl-nav.disabled{
+    display: inline !important;
+}
+.mt--1{
+    margin-top: -4rem;
+}
+
+.image{
+    width: auto;
+    max-height: 400px;
+}
